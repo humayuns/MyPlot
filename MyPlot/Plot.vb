@@ -13,8 +13,13 @@
             Y = Y + 160
 
             g.DrawRectangle(Pens.Black, X, Y, 1, 1)
-            Debug.WriteLine($"{X}, {Y}")
+            ' Not writing to debug at the moment.
+            'Debug.WriteLine($"{X}, {Y}")
         Next
 
+    End Sub
+
+    Friend Sub DrawAsync(p As Action, v1 As Integer, v2 As Integer, graphics As Graphics)
+        Throw New NotImplementedException()
     End Sub
 End Class

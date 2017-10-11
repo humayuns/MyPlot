@@ -31,7 +31,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.White
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(418, 26)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(490, 312)
         Me.PictureBox1.TabIndex = 0
@@ -39,22 +39,22 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 26)
+        Me.Button1.Location = New System.Drawing.Point(12, 330)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Draw"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(920, 556)
+        Me.ClientSize = New System.Drawing.Size(534, 374)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "MyPlot Demo"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
